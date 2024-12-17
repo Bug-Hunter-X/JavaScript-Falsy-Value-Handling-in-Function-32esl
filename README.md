@@ -1,0 +1,3 @@
+# JavaScript Falsy Value Handling Bug
+
+This repository demonstrates a subtle bug in JavaScript related to handling falsy values within a function. The function `foo` is intended to return 0 if either of its arguments is null, however it doesn't explicitly check for other falsy values such as `0`, `false`, `""`, `undefined`, which may lead to unexpected behavior. The solution illustrates a robust approach by explicitly checking for null or undefined values.
